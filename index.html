@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"href="img/favicon.ico">
+    <title>LicaDesigns</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Sprites</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Logotipos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business Arts</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Diversas Arts</a>
+                </li>
+            </ul>
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Lica</b>Designs</h1>
+        </div>
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Sprites</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Logotipos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business Arts</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Diversas Arts</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="https://instagram.com/licaartss?igshid=ZDc4ODBmNjlmNQ==" class="opções__link">Follow Me</a></li>
+            <li class="opções__item"><a href="https://www.linkedin.com/in/heloisa-greghi-60965a189" class="opções__link">Me contrate!</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="https://instagram.com/licaartss?igshid=ZDc4ODBmNjlmNQ=="><img src="img/instagram.svg" alt="Logo Instagram"
+                    class="container__imagem container__imagem-transparente"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Olá eu sou a Lica!</h2>
+        <p class="banner__texto">Navegue pelo site e analise o meu portfolio!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual design você quer ver?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Favoritos Da Lica</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/flor_fundo-preto.svg"
+                            alt="Design flor fundo preto"></div>
+                    <div class="swiper-slide"><img src="img/flor_fundo-azul.svg"
+                            alt="design flor fundo azul"></div>
+                    <div class="swiper-slide"><img src="img/daisy.svg"
+                            alt="Design com margarida 1"></div>
+                    <div class="swiper-slide"><img src="img/daisy_fundo.png" alt="Design com margarida 2"></div>
+                    <div class="swiper-slide"><img src="img/Logo- Alodoces.png" alt="Logtipo Confeitaria"></div>
+                    <div class="swiper-slide"><img src="img/coleção.png" alt="Coleção do cavaleiro da lua"></div>
+                </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você prefira...</h3>
+                        <h2 class="descrição__titulo-dois">Assistir a Lica Arts</h2>
+                        <p class="descrição__texto">Para me conhecer melhor e se aventurar comigo no mundo da programação e design.</p>
+                    </div>
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <p class="descrição__texto">Também acompanhar a rotina da Lica!</p>
+                        <li class="botões__item"><img src="img/instagram.png" alt="Logo Instagram"></li>
+                        <li class="botões__item"><img src="img/youtube.png" alt="Logo Youtube"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="https://portf-lio-ruby-one.vercel.app/" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Para ver mais LicaDesigns</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                <div class="swiper-slide"><img src="img/album-de-musica.png"
+                        alt="Capa de albúm de música"></div>
+                <div class="swiper-slide"><img src="img/chocolate-1.png"
+                        alt="Beneficios do chocolate 1"></div>
+                <div class="swiper-slide"><img src="img/chocolate-2.png"
+                        alt="Beneficios do chocolate 2"></div>
+                <div class="swiper-slide"><img src="img/e-se-fosse-loja.png" alt="Se Lica Arts fosse loja de roupa"></div>
+                <div class="swiper-slide"><img src="img/Fim-de-post.png" alt="Fim de post para Confeitaria"></div>
+                <div class="swiper-slide"><img src="img/Importância-abelhas.png" alt=""></div>
+            </div>
+                
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Lica</h3>
+                        <h2 class="descrição__titulo-livro">Lica Morais</h2>
+                        <p class="descrição__texto">Analista de sistemas, Designer e Analista De BI Lica é especialista em
+                            Front-End.
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/lica_eu.jpg" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <a href="https://instagram.com/licaartss?igshid=ZDc4ODBmNjlmNQ==" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Sprites</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Front-end</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Logotipos</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Business Arts</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Diversas Arts</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://instagram.com/licaartss?igshid=ZDc4ODBmNjlmNQ==" class="tópicos__link">Follow Me!</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="https://www.linkedin.com/in/heloisa-greghi-60965a189" class="tópicos__link">Me Contrate!</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de Designs, programação e conteúdos.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Grupo Lica Arts</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Portfolio</li>
+            <li class="lista-rodapé__item">
+                <a href="https://portf-lio-ruby-one.vercel.app/index.html" class="lista-rodapé__link">Portfolio Lica</a>
+            </li>
+        </ul>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Diversos projetos</li>
+            <li class="lista-rodapé__item">
+                <a href="https://lica-plus.vercel.app/" class="lista-rodapé__link">Lica Plus</a>
+            </li>
+            
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Designer</li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Lica Designs</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Acesse nossas redes sociais para visualizar jobs e inspirações</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
