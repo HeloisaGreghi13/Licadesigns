@@ -7,3 +7,5 @@ Este é o Lica Designs um dos meus xodós em HTML e CSS, mas nesse já tivemos u
 foi utilizada a biblioteca Swiper
 
 Bora ver?
+
+É responsivo!
